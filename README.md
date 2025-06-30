@@ -1,5 +1,19 @@
 # Predictive DocV Android SDK v5
 
+## What is this repository?
+
+This repository contains a sample Android application that demonstrates how to integrate Socure's Document Verification (DocV) SDK into your Android app. In simple terms, this SDK allows your app to:
+
+1. **Verify identity documents**: Let users scan their ID cards, passports, or driver's licenses directly through your app's camera
+2. **Prevent fraud**: Help confirm that your users are who they claim to be
+3. **Create a smooth verification process**: Guide users through the document scanning process with an easy-to-use interface
+
+Think of it as adding a digital ID checker to your app that can capture, analyze, and verify official documents - all while keeping user data secure and providing a good user experience.
+
+The sample app in this repository shows you exactly how to set up this functionality in your own Android application with step-by-step instructions and working code examples.
+
+---
+
 Learn how to quickly integrate with the Predictive Document Verification (DocV) Android SDK v5.
 
 >Note: The Digital Intelligence SDK is required for all DocV Android SDK v5 integrations. For more information, see [Digital Intelligence Android SDK Quick Start Guide](https://developer.socure.com/docs/sdks/digital-intelligence/android-sdk). 
@@ -245,4 +259,4 @@ The following table lists the error values that can be returned by the `SocureDo
 
 ## Step 3: Fetch the verification results 
 
-When the consumer successfully completes the document capture and upload process, call the ID+ endpoint fetch the results. See the [API Reference documentation](https://developer.socure.com/reference#tag/ID+/operation/ID+) on DevHub for more information. 
+When the consumer successfully completes the document capture and upload process, call the ID+ endpoint fetch the results. See the [API Reference documentation](https://developer.socure.com/reference#tag/ID+/operation/ID+) on DevHub for more information.
